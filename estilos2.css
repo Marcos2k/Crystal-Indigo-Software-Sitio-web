@@ -1,0 +1,25 @@
+@import url('fuentes.css');
+@import url('reset.css');
+
+body{
+	background-color: #3395bc;
+}
+
+.logotipo{
+	font-family: AirStrike;
+	font-size: 45px;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+}
+a{
+	color: #fff;
+}
+a:hover{
+	text-decoration: none;
+	color:#fff;
+}
+
+p{
+	color:#fff;
+}

@@ -1,0 +1,208 @@
+@import url('fuentes.css');
+@import url('reset.css');
+
+header{
+	background-image: url(Imagenes/header_bg.jpg);
+	height: 220px;
+}
+
+nav ul li{
+	list-style: none;
+}
+
+nav ul li a{
+	color:#fff;
+	float: left;
+	
+	padding: 10px;
+	font-family: Fabrica;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+nav ul li a:hover{
+ text-decoration: underline;
+}
+
+.logotipo{
+	font-family: AirStrike;
+	font-size: 45px;
+	color: #fff;
+	text-decoration: none;
+}
+
+header a:hover{
+text-decoration: none;
+color: #fff;
+}
+
+.idioma{
+	float: right;
+	padding: 10px;
+	color: #fff;
+	font-size: 18px;
+}
+
+.titulos{
+	font-family: Fabrica;
+	font-size: 18px;
+}
+footer{
+	background-image: url(Imagenes/footer_bg.jpg);
+	height: 50px;
+}
+
+/*Slider*/
+
+#slider{
+margin:30px auto;
+box-shadow: 0 .1em 1em black;
+-webkit-box-shadow: 0 .1em 1em black;
+-moz-box-shadow: 0 .1em 1em black;
+-o-box-shadow: 0 .1em 1em black;
+}
+ 
+ 
+/* ESTILOS DEL SLIDESHOW */
+ 
+ul.bjqs{position:relative; list-style:none;padding:0;margin:0;overflow:hidden; display:none;}
+li.bjqs-slide{position:absolute; display:none;}
+ul.bjqs-controls{list-style:none;margin:0;padding:0;z-index:9999;}
+ul.bjqs-controls.v-centered li a{position:absolute;}
+ul.bjqs-controls.v-centered li.bjqs-next a{right:0;}
+ul.bjqs-controls.v-centered li.bjqs-prev a{left:0;}
+ol.bjqs-markers{list-style: none; padding: 0; margin: 0; width:100%;}
+ol.bjqs-markers.h-centered{text-align: center;}
+ol.bjqs-markers li{display:inline;}
+ol.bjqs-markers li a{display:inline-block;}
+p.bjqs-caption{display:block;width:100%;margin:0;padding:2%;position:absolute;bottom:0;} /*este es el pie de la imagen del slide*/
+ 
+ 
+.bjqs-caption{ /*Detalles del texto en el Slide*/
+color:#fff;
+background-image: url(Imagenes/footer_bg.jpg);
+font-size: 18px;
+font-family: Fabrica;
+}
+ 
+/* BOTONERA UBICADA AL PIE DEL SLIDESHOW */
+ol.bjqs-markers{
+margin-top:35px;
+}
+ol.bjqs-markers li a{
+padding: 5px 10px;
+background: #000;
+color: #fff;
+margin: 5px;
+text-decoration: none;
+transition:background .5s ease;
+-webkit-transition:background .5s ease;
+-moz-transition:background .5s ease;
+-o-transition:background .5s ease;
+}
+li.active-marker a, ol.bjqs-markers li a:hover{
+background:gray!important;
+}
+ 
+/* CONTROLES ATRAS Y ADELANTE */
+ul.bjqs-controls.v-centered li a {
+display: block;
+padding: 10px;
+background: whitesmoke;
+color: #000;
+text-decoration: none;
+opacity:.75;
+ 
+transition:color .5s ease, background .5s ease;
+-webkit-transition:color .5s ease, background .5s ease;
+-moz-transition:color .5s ease, background .5s ease;
+-o-transition:color .5s ease, background .5s ease;
+}
+ul.bjqs-controls.v-centered li a:hover{
+    background:#000;
+    color:#fff;
+}
+
+/*Footer*/
+footer ul li{
+	list-style: none;
+}
+
+footer ul li a{
+	color:#fff;
+	float: left;
+	
+	padding: 10px;
+	font-family: Fabrica;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+footer ul li a:hover{
+ text-decoration: underline;
+}
+
+.fotoperfil{
+	height: 140px;
+	width: 140px;
+	float:right;
+}
+
+.descripcion{
+	float: right;
+}
+
+/*Controles de formulario*/
+.textbox
+  {
+  border: 1px solid #DBE1EB;
+  font-size: 18px;
+  font-family: Arial, Verdana;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+  background: #FFFFFF;
+  background: linear-gradient(left, #FFFFFF, #F7F9FA);
+  background: -moz-linear-gradient(left, #FFFFFF, #F7F9FA);
+  background: -webkit-linear-gradient(left, #FFFFFF, #F7F9FA);
+  background: -o-linear-gradient(left, #FFFFFF, #F7F9FA);
+  color: #2E3133;
+  }
+   
+  .textbox:focus
+  {
+  color: #2E3133;
+  border-color: #FBFFAD;
+  }
+
+  .email{
+  	height: 140px;
+	width: 140px;
+	margin-right: 50px;
+  }
+
+  .mensaje_enviado{
+  	font-size: 28px;
+  }
+
+  .fotocliente{
+  	height: 140px;
+	width: 140px;
+	margin-left: 10px;
+  }
+
+  .descripcion-cliente{
+  	font-size: 14px;
+  }
+
+  .telefono{
+  	height: 50px;
+	width: 50px;
+	float:right;
+	margin-right:120px;
+  }
